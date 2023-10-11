@@ -1,0 +1,4 @@
+import os
+
+SUPABASE_URL = "https://jajgwvguqkjuvjcjrley.supabase.co"
+SUPABASE_API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imphamd3dmd1cWtqdXZqY2pybGV5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTY5NjMxMjYsImV4cCI6MjAxMjUzOTEyNn0.JRKCTweT0whcvsDrHD3LfT3E_amKYEGyam4T7LeC_N4"

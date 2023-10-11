@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-m*9ok+*nhs257of(y2y%x0w=42_(=a#w*#s_5*ys64d+=qecb)'
+SECRET_KEY = 'django-insecure-62#rshi4@2u20)kps=7_r6vk=t55c4xvm+%otekd6%!j-gck4b'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -75,8 +75,12 @@ WSGI_APPLICATION = 'mainapp.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": "postgres",
+        "USER": "postgres",
+        "PASSWORD": "WoQ6EVAbT9YBwqeg",
+        "HOST": "db.jajgwvguqkjuvjcjrley.supabase.co",
+        "PORT": "5432",  # Standardní port pro PostgreSQL
     }
 }
 
